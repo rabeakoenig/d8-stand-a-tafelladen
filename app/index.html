@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tafelladen Lindenhof</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tafelladen Lindenhof (erfundenes Beispiel)</h1>
+  <h2>Abholfenster eintragen</h2>
+  <select id="wer" aria-label="Kürzel"></select>
+  <select id="wann" aria-label="Abholfenster"></select>
+  <button type="button" id="eintragen">Eintragen</button>
+  <ul id="liste"></ul>
+  <section id="kasten" hidden>
+    <h2>Frag den Tafelladen</h2>
+    <input type="text" id="frage" maxlength="200" aria-label="Deine Frage">
+    <button type="button" id="senden">Fragen</button>
+    <p id="antwort"></p>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
